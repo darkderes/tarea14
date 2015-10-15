@@ -14,6 +14,9 @@
 		0CA3A4731BB1B8FC00DF168C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA3A4711BB1B8FC00DF168C /* LaunchScreen.storyboard */; };
 		0CA3A47E1BB1B90200DF168C /* tareaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA3A47D1BB1B90200DF168C /* tareaTests.swift */; };
 		0CA3A4891BB1B90500DF168C /* tareaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA3A4881BB1B90500DF168C /* tareaUITests.swift */; };
+		0CA3A4981BB1C11800DF168C /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CA3A4971BB1C11800DF168C /* logo.jpg */; settings = {ASSET_TAGS = (); }; };
+		0CA3A49A1BB1C3EF00DF168C /* usuarios.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA3A4991BB1C3EF00DF168C /* usuarios.swift */; settings = {ASSET_TAGS = (); }; };
+		0CA3A49C1BB1D55C00DF168C /* segundaVistaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA3A49B1BB1D55C00DF168C /* segundaVistaController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		0CA3A4841BB1B90400DF168C /* tareaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tareaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CA3A4881BB1B90500DF168C /* tareaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tareaUITests.swift; sourceTree = "<group>"; };
 		0CA3A48A1BB1B90600DF168C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CA3A4971BB1C11800DF168C /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logo.jpg; path = ../../logo.jpg; sourceTree = "<group>"; };
+		0CA3A4991BB1C3EF00DF168C /* usuarios.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = usuarios.swift; sourceTree = "<group>"; };
+		0CA3A49B1BB1D55C00DF168C /* segundaVistaController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = segundaVistaController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +103,15 @@
 		0CA3A4671BB1B8F500DF168C /* tarea */ = {
 			isa = PBXGroup;
 			children = (
+				0CA3A4961BB1C10900DF168C /* imagenes */,
 				0CA3A4681BB1B8F700DF168C /* AppDelegate.swift */,
 				0CA3A46A1BB1B8F800DF168C /* ViewController.swift */,
 				0CA3A46C1BB1B8F900DF168C /* Main.storyboard */,
 				0CA3A46F1BB1B8FA00DF168C /* Assets.xcassets */,
 				0CA3A4711BB1B8FC00DF168C /* LaunchScreen.storyboard */,
 				0CA3A4741BB1B8FE00DF168C /* Info.plist */,
+				0CA3A4991BB1C3EF00DF168C /* usuarios.swift */,
+				0CA3A49B1BB1D55C00DF168C /* segundaVistaController.swift */,
 			);
 			path = tarea;
 			sourceTree = "<group>";
@@ -123,6 +132,14 @@
 				0CA3A48A1BB1B90600DF168C /* Info.plist */,
 			);
 			path = tareaUITests;
+			sourceTree = "<group>";
+		};
+		0CA3A4961BB1C10900DF168C /* imagenes */ = {
+			isa = PBXGroup;
+			children = (
+				0CA3A4971BB1C11800DF168C /* logo.jpg */,
+			);
+			name = imagenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CA3A4981BB1C11800DF168C /* logo.jpg in Resources */,
 				0CA3A4731BB1B8FC00DF168C /* LaunchScreen.storyboard in Resources */,
 				0CA3A4701BB1B8FA00DF168C /* Assets.xcassets in Resources */,
 				0CA3A46E1BB1B8F900DF168C /* Main.storyboard in Resources */,
@@ -255,6 +273,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CA3A49A1BB1C3EF00DF168C /* usuarios.swift in Sources */,
+				0CA3A49C1BB1D55C00DF168C /* segundaVistaController.swift in Sources */,
 				0CA3A46B1BB1B8F800DF168C /* ViewController.swift in Sources */,
 				0CA3A4691BB1B8F700DF168C /* AppDelegate.swift in Sources */,
 			);

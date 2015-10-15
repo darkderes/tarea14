@@ -24,12 +24,23 @@ class tareaTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+      //  XCTAssert(true,"Pass")
+        //  XCTFail("prueba fallida")
+      //  XCTAssertEqual(usuarios(name: "jorge",pass: "entrar" ).getUsuario(),"jorge","probando devolucion nombre de usuario")
+       //  XCTAssertEqual(usuarios(name: "jorge",pass: "entrar" ).getPass(),"entrar","probando devolucion password")
     }
     
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measureBlock {
             // Put the code you want to measure the time of here.
+        //funcion prueba de ejecucion de
+            var us = [usuarios]()
+            for(var i = 0;i<10;i++)
+            {
+            var y = us.sort({$0.name < $1.name})
+            }
+            
         }
     }
     
